@@ -9,8 +9,8 @@
            plugify module from the admin_system plugin's exported methods) */
         __admin_system_*;
 
-        /* hudmenu binding slots (defined by hudmenu_bindings, filled by the plugify module from
-           the hudmenu plugin's exported GetClientMenuType/SetClientMenuType) */
+        /* hudmenu binding slots (GetClientMenuType; optional dependency). Without the plugin the
+           globals stay null and the menu type uses the "hud if registered, else button" fallback. */
         __hudmenu_*;
 
         /* No exported methods: as_votebkm exposes nothing to other plugins. */

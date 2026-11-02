@@ -1,0 +1,166 @@
+"Phrases"
+{
+    "VoteBKM_Title"
+    {
+        "ru" "Выберите действие"
+        "en" "Select action"
+    }
+    "VoteBKM_Title_Ban"
+    {
+        "ru" "Бан игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "Ban player {LIGHTRED}%s{DEFAULT}"
+    }
+    "VoteBKM_Title_Kick"
+    {
+        "ru" "Кик игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "Kick player {LIGHTRED}%s{DEFAULT}"
+    }
+    "VoteBKM_Title_Mute"
+    {
+        "ru" "Блокировка голоса игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "Mute player {LIGHTRED}%s{DEFAULT}"
+    }
+    "VoteBKM_Title_Gag"
+    {
+        "ru" "Запрет чата игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "Gag player {LIGHTRED}%s{DEFAULT}"
+    }
+    "VoteBKM_Yes"
+    {
+        "ru" "Проголосовать за"
+        "en" "Vote for"
+    }
+    "VoteBKM_No"
+    {
+        "ru" "Проголосовать против"
+        "en" "Vote against"
+    }
+    "VoteBKM_Ban"
+    {
+        "ru" "Забанить"
+        "en" "Ban"
+    }
+    "VoteBKM_Kick"
+    {
+        "ru" "Кикнуть"
+        "en" "Kick"
+    }
+    "VoteBKM_Mute"
+    {
+        "ru" "Блокировать голоса"
+        "en" "Mute"
+    }
+    "VoteBKM_Gag"
+    {
+        "ru" "Запретить чат"
+        "en" "Gag"
+    }
+    "VoteBKM_NotEnoughPlayers"
+    {
+        "ru" "Недостаточно игроков для голосования"
+        "en" "Not enough players to vote"
+    }
+    "VoteBKM_Admin"
+    {
+        "ru" "Доступ закрыт т.к на сервере есть администратор"
+        "en" "Access denied because there is an administrator on the server"
+    }
+    "VoteBKM_CoolDown"
+    {
+        "ru" "Недавно было проведено голосование, подождите %i секунд"
+        "en" "A vote was recently held, wait %i seconds"
+    }
+    "VoteBKM_NoPlayers"
+    {
+        "ru" "Нет доступных игроков для голосования"
+        "ua" "Немає доступних гравців для голосування"
+        "en" "No available players to vote"
+    }
+    "VoteBKM_SelectPlayer"
+    {
+        "ru" "Выберите игрока"
+        "en" "Select player"
+    }
+    "VoteBKM_Action_Ban"
+    {
+        "ru" "Игрок {LIGHTRED}%s{DEFAULT} проголосовал за бан игрока {LIGHTRED}%s{DEFAULT} (%i/%i)"
+        "en" "Player {LIGHTRED}%s{DEFAULT} voted for ban player {LIGHTRED}%s{DEFAULT} (%i/%i)"
+    }
+    "VoteBKM_Action_Kick"
+    {
+        "ru" "Игрок {LIGHTRED}%s{DEFAULT} проголосовал за кик игрока {LIGHTRED}%s{DEFAULT} (%i/%i)"
+        "en" "Player {LIGHTRED}%s{DEFAULT} voted for kick player {LIGHTRED}%s{DEFAULT} (%i/%i)"
+    }
+    "VoteBKM_Action_Mute"
+    {
+        "ru" "Игрок {LIGHTRED}%s{DEFAULT} проголосовал за блокировку голоса игрока {LIGHTRED}%s{DEFAULT} (%i/%i)"
+        "en" "Player {LIGHTRED}%s{DEFAULT} voted for mute player {LIGHTRED}%s{DEFAULT} (%i/%i)"
+    }
+    "VoteBKM_Action_Gag"
+    {
+        "ru" "Игрок {LIGHTRED}%s{DEFAULT} проголосовал за запрет чата игрока {LIGHTRED}%s{DEFAULT} (%i/%i)"
+        "en" "Player {LIGHTRED}%s{DEFAULT} voted for gag player {LIGHTRED}%s{DEFAULT} (%i/%i)"
+    }
+    "VoteBKM_Created_Ban_Admin"
+    {
+        "ru" "{LIGHTRED}%s{DEFAULT} создал голосование за бан игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "{LIGHTRED}%s{DEFAULT} created a vote to ban player {LIGHTRED}%s{DEFAULT}"
+    }
+    "VoteBKM_Created_Kick_Admin"
+    {
+        "ru" "{LIGHTRED}%s{DEFAULT} создал голосование за кик игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "{LIGHTRED}%s{DEFAULT} created a vote to kick player {LIGHTRED}%s{DEFAULT}"
+    }
+    "VoteBKM_Created_Mute_Admin"
+    {
+        "ru" "{LIGHTRED}%s{DEFAULT} создал голосование за блокировку голоса игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "{LIGHTRED}%s{DEFAULT} created a vote to mute player {LIGHTRED}%s{DEFAULT}"
+    }
+    "VoteBKM_Created_Gag_Admin"
+    {
+        "ru" "{LIGHTRED}%s{DEFAULT} создал голосование за запрет чата игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "{LIGHTRED}%s{DEFAULT} created a vote to gag player {LIGHTRED}%s{DEFAULT}"
+    }
+    "VoteBKM_Created_Ban"
+    {
+        "ru" "Создано голосование за бан игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "Vote to ban player {LIGHTRED}%s{DEFAULT} has been created"
+    }
+    "VoteBKM_Created_Kick"
+    {
+        "ru" "Создано голосование за кик игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "Vote to kick player {LIGHTRED}%s{DEFAULT} has been created"
+    }
+    "VoteBKM_Created_Mute"
+    {
+        "ru" "Создано голосование за блокировку голоса игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "Vote to mute player {LIGHTRED}%s{DEFAULT} has been created"
+    }
+    "VoteBKM_Created_Gag"
+    {
+        "ru" "Создано голосование за запрет чата игрока {LIGHTRED}%s{DEFAULT}"
+        "en" "Vote to gag player {LIGHTRED}%s{DEFAULT} has been created"
+    }
+    "VoteBKM_Canceled"
+    {
+        "ru" "Голосование провалено из-за нехватки голосов"
+        "en" "Vote failed due to lack of votes"
+    }
+    "VoteBKM_AlreadyActive"
+    {
+        "ru" "Голосование уже запущено"
+        "ua" "Голосування вже запущено"
+        "en" "Vote is already active"
+    }
+    "VoteBKM_AlreadyEnded"
+    {
+        "ru" "Голосование уже завершено"
+        "en" "The vote has already ended"
+    }
+    "VoteBKM_Success"
+    {
+        "ru" "Голосование завершено. Игрок {LIGHTRED}%s{DEFAULT} наказан"
+        "en" "Vote completed. Player {LIGHTRED}%s{DEFAULT} punished"
+    }
+    "language" "ru"
+}

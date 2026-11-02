@@ -2,7 +2,7 @@
 	"$schema": "https://raw.githubusercontent.com/untrustedmodders/plugify/refs/heads/main/schemas/plugin.schema.json",
 	"version": "${AS_VOTEBKM_VERSION}",
 	"name": "as_votebkm",
-	"description": "Player votes to ban / kick / mute / gag someone, ported from the Pisex admin_system module 'VoteBKM' ([AS] VoteBKM by Pisex). Keeps the votebkm.ini keys, the chat commands, the menus, the immunity/disable flag rules, the cooldown and the punishment path (admin core AddPlayerPunishment / SendAction + an engine kick) of the original. Requires the admin_system core.",
+	"description": "Player votes to ban / kick / mute / gag someone, ported from the Pisex admin_system module 'VoteBKM' ([AS] VoteBKM by Pisex) to a standalone native s2sdk plugin. Keeps the votebkm.ini keys, the chat commands, the menus, the immunity/disable flag rules, the cooldown and the punishment path (admin core AddPlayerPunishment / SendAction + an engine kick) of the original. A delayed result always revalidates the captured SteamID64 and never punishes a new occupant of a reused slot. Requires the admin_system core; the hudmenu dependency is optional and only preserves the player's own !menu rendering choice.",
 	"author": "Pisex, ported to Plugify",
 	"website": "https://github.com/untrustedmodders/plugify",
 	"license": "GPL-3.0",
@@ -16,7 +16,7 @@
 		},
 		{
 			"name": "admin_system",
-			"constraints": ">=1.0.0"
+			"constraints": ">=1.1.0"
 		},
 		{
 			"name": "hudmenu",
